@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#generate-page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+
+#generate-page header {
+    margin-bottom: 1rem;
+}
+
+#generate-page header h2 {
+    font-size: x-large;
+    font-family: fantasy;
+}
